@@ -3,8 +3,60 @@
 <head>
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #45306D; /* Cambiar el fondo de la página */
+            color: #FBFB05; /* Cambiar el color del texto */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0; /* Eliminar márgenes predeterminados */
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            width: 100%; /* Asegurar que ocupe el ancho completo */
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu li a:hover {
+            color: #ddd;
+        }
+
+        #hora {
+            color: white;
+            font-weight: bold;
+        }
+
+        h1, img {
+            text-align: center; /* Centrar texto e imagen */
+            margin: 10px 0; /* Añadir un poco de espacio */
+        }
+    </style>
 </head>
-<body style="background-color: #45306D; color: #FBFB05;"> <!-- Cambiar el fondo y color del texto -->
+<body>
     <div class="menu-container">
         <ul class="menu">
             <li><a href="#">Inicio</a></li>

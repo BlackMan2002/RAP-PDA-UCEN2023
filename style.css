@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #45306D; /* Cambiar el fondo de la página */
+    color: #FBFB05; /* Cambiar el color del texto */
 }
 
 .menu-container {
@@ -8,6 +10,7 @@ body {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+    width: 100%; /* Asegurar que ocupe el ancho completo */
 }
 
 .menu {
@@ -33,4 +36,8 @@ body {
 #hora {
     color: white;
     font-weight: bold;
+}
+
+h1, img {
+    text-align: center; /* Centrar texto e imagen */
 }
