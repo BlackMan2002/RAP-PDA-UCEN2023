@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #45306D; /* Cambiar el fondo de la página */
+    color: #FBFB05; /* Cambiar el color del texto */
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    width: 100%; /* Asegurar que ocupe el ancho completo */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ddd;
+}
+
+#hora {
+    color: white;
+    font-weight: bold;
+}
+
+h1, img {
+    text-align: center; /* Centrar texto e imagen */
+}

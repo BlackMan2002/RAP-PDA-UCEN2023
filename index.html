@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>LAb 1</title>
+    <link rel="stylesheet" href="style_proyecto1.css">
+    <style>
+        /* Estilos CSS para centrar y espaciar el texto narrativo */
+        #texto-narrativo {
+            text-align: left; /* Alinear el texto a la izquierda */
+            max-width: 800px; /* Establecer un ancho máximo */
+            margin: 20px auto; /* Centrar en la página y agregar margen */
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .left-content {
+            flex: 1;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .right-content img {
+            max-width: 50%; /* Ajustar la imagen al 50% del tamaño original */
+            height: auto; /* Mantener la proporción */
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>Programación de Aplicación</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="acerca.html">Acerca de</a></li>
-                <li><a href="guia.html">Guía</a></li>
-            </ul>
-        </nav>
-    </header>
+<body style="background-color: #45306D; color: #FBFB05; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;"> <!-- Cambiar el fondo y color del texto y centrar en la página -->
+    <div class="menu-container">
+        
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyecto1.html">proyecto 1</a></li>
+            <li><a href="#">Proyecto 2</a></li>
+        </ul>
+        <div id="hora"></div>
+    </div>
 
-    <main>
-        <img src="tu_imagen.jpg" alt="Imagen">
-        <div>
-            <p>Nombre: [Tu Nombre]</p>
-            <p>Correo: [Tu Correo]</p>
-        </div>
+   
+    <h1>PROYECTO 1</h1>
+    <div class="left-content">
+        <img src="src/casa arbol sol.png" alt="Descripción de la imagen" style="transform: scale(0.5);">
+    </div>
 
-        <textarea placeholder="Escribe aquí..."></textarea>
-
-        <button onclick="window.location.href='proyecto1.html'">Proyecto 1</button>
-        <button onclick="window.location.href='proyecto2.html'">Proyecto 2</button>
-        <button onclick="window.location.href='proyecto3.html'">Proyecto 3</button>
-    </main>
+    <!-- Enlace al archivo script.js -->
+    <script src="script.js"></script>
 </body>
 </html>
