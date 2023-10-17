@@ -1,77 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LAb 1</title>
-    <link rel="stylesheet" href="style_index.css">
-    <style>
-        /* Estilos CSS para centrar y espaciar el texto narrativo */
-        #texto-narrativo {
-            text-align: left; /* Alinear el texto a la izquierda */
-            max-width: 800px; /* Establecer un ancho máximo */
-            margin: 20px auto; /* Centrar en la página y agregar margen */
-        }
-
-        .content-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px;
-        }
-
-        .left-content {
-            flex: 1;
-            text-align: right;
-            padding-right: 20px;
-        }
-
-        .right-content img {
-            max-width: 100%; /* Ajustar la imagen al contenedor */
-            height: auto; /* Mantener la proporción */
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-color: #45306D; color: #FBFB05; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;"> <!-- Cambiar el fondo y color del texto y centrar en la página -->
-    <div class="menu-container">
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="proyecto1.html">Proyecto 1</a></li>
-            <li><a href="#">proyecto 2</a></li>
-            <li><a href="#">proyecto 3</a></li>
-        </ul>
-        <div id="hora"></div>
-    </div>
+<body>
+    <header>
+        <h1>Programación de Aplicación</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="guia.html">Guía</a></li>
+            </ul>
+        </nav>
+    </header>
 
-   
-    <h1>PROGRAMACION DE APLICACION</h1>
-    <div class="content-container">
-        <div class="left-content">
-            <img src="https://historia.nationalgeographic.com.es/medio/2016/05/05/napoleon-bonaparte-en-santa-elena_ebe32e7b.jpg" alt="Descripción de la imagen">
-           
+    <main>
+        <img src="tu_imagen.jpg" alt="Imagen">
+        <div>
+            <p>Nombre: [Tu Nombre]</p>
+            <p>Correo: [Tu Correo]</p>
         </div>
-        <div class="right-content">
-            <p>Nombre: Rony Andres Perez Prado</p>
-            <p>Correo: rony.perez@alumnos.ucentral.cl</p>
-        </div>
-    </div>
-     <!-- Texto narrativo -->
-     <div id="texto-narrativo">
-        <p>
-            HTML , CSS y JS
-        </p>
-    </div>
-     <!-- Texto narrativo -->
-     <div id="material-HTML-CSS-JS">
-        <p>
-            
-        </p>
-        <div class="right-content">
-            <audio controls autoplay>
-                <source src="src/cancion.mp3" type="audio/mp3">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-        </div>    
-    </div>
-    <!-- Enlace al archivo script.js -->
-    <script src="script.js"></script>
+
+        <textarea placeholder="Escribe aquí..."></textarea>
+
+        <button onclick="window.location.href='proyecto1.html'">Proyecto 1</button>
+        <button onclick="window.location.href='proyecto2.html'">Proyecto 2</button>
+        <button onclick="window.location.href='proyecto3.html'">Proyecto 3</button>
+    </main>
 </body>
 </html>
