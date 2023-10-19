@@ -1,22 +1,20 @@
-<!DOCTYPE html> <!-- Declaración del tipo de documento -->
-<html lang="es"> <!-- Elemento raíz de la página con atributo de idioma -->
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-    <!-- Metadatos -->
-    <meta charset="UTF-8"> <!-- Configuración de la codificación de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Indicación de la versión de Internet Explorer a utilizar -->
-    <title>Lab 1</title> <!-- Título de la página que aparecerá en la pestaña del navegador -->
-    <link rel="stylesheet" href="estilos.css"> <!-- Enlace a la hoja de estilos CSS externa -->
-    <link rel="shortcut icon" href="src/iconpagina.png" type="image/x-icon"> <!-- Icono de la pestaña del navegador -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> <!-- Enlace a una fuente de Google Fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="src/iconpagina.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    
 </head>
 
 <body>
-    <!-- Cuerpo de la página -->
     <header>
         <nav>
-            <!-- Barra de navegación -->
             <a href="#">Inicio</a>
             <a href="#">Acerca de</a>
             <a href="#">Proyecto 1</a>
@@ -24,19 +22,153 @@
             <a href="#">Proyecto 3</a>
         </nav>
         <section class="textos-header">
-            <!-- Sección de encabezado con texto y fondo ondulado -->
-            <h1>Programacion de Aplicaciones</h1> <!-- Título principal -->
-            <h2>Pagina de Proyectos y mas</h2> <!-- Subtítulo -->
+            <h1>Programacion de Aplicaciones</h1>
+            <h2>Pagina de Proyectos y mas</h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;">
-            <!-- Div con onda como fondo -->
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path> <!-- Forma de onda en SVG -->
-            </svg>
-        </div>
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
     </header>
-    <!-- ... (resto del contenido de la página) -->
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Proyectos</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="src/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Proyecto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                    <h3><span>2</span>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                    <h3><span>2</span>Proyecto 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="src/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="src/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="src/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Estudiante</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="src/actually.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>YO</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">|servicios|</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="src/ilustracion1.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="src/ilustracion4.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="src/ilustracion3.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>8296312</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>8296312</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>8296312</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Rony Perez | Programacion de Aplicacion</h2>
+    </footer>
 </body>
+
 </html>
