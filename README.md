@@ -1,6 +1,5 @@
 # RAP-PDA-UCEN2023
 # 2/10/2023
-# la valentina la mas linda
 # Mi Proyecto
 
 
